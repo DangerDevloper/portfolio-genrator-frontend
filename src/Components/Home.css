@@ -1,0 +1,510 @@
+/*! CSS Used from: https://dev.voyage/_next/static/css/b093561e8702c6ae.css */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.custom_scrollbar {
+    scroll-behavior: smooth;
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+}
+
+.custom_scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb {
+    background-color: #7775;
+    border-radius: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
+.custom_scrollbar::-webkit-scrollbar-track {
+    background-color: #5555;
+}
+
+.custom_scrollbar::-webkit-scrollbar-track:hover {
+    background-color: #555;
+}
+
+/*! CSS Used from: Embedded */
+.login_btn.jsx-16fe40e67dad50c {
+    padding: 10px 10px;
+    border: 1px solid hsla(0, 0%, 100%, 0.15);
+    border-radius: 12px;
+    background-color: transparent;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.login_btn.jsx-16fe40e67dad50c:hover {
+    border-color: #7b61ff;
+    background-color: rgba(123, 97, 255, 0.2);
+    color: #7b61ff;
+}
+
+.icon.jsx-16fe40e67dad50c {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--m-main-purple-color);
+}
+
+.login_text.jsx-16fe40e67dad50c {
+    font-size: 14px;
+}
+
+/*! CSS Used from: Embedded */
+.navbar_wrapper.jsx-b7442b5b9511eb8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+    z-index: 999;
+}
+
+.navbar.jsx-b7442b5b9511eb8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto;
+    min-height: 72px;
+    padding: 0 18px;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(8px);
+}
+
+.logo.jsx-b7442b5b9511eb8 {
+    color: var(--m-main-purple-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (min-width:840px) {
+    .navbar.jsx-b7442b5b9511eb8 {
+        max-width: 1120px;
+        margin: auto;
+    }
+}
+
+/*! CSS Used from: Embedded */
+.button.jsx-2351de3453acc426 {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(200deg, #9e61ff, rgba(142, 97, 255, 0) 34%), radial-gradient(circle farthest-corner at 0% -100%, #619bff 20%, rgba(205, 219, 248, 0) 51%), linear-gradient(180deg, #6c52ee, #6c52ee);
+    box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 19%), 0 0 15px 0 rgb(238 1 255 / 57%), 0 5px 53px 0 rgb(0 29 255 / 73%);
+    -webkit-transition: all 250ms ease, filter 1000ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 200ms ease;
+    transition: all 250ms ease, filter 1000ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 200ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.button.jsx-2351de3453acc426:hover {
+    box-shadow: 5px 0 30px 0 rgb(0 0 0 / 10%);
+    -webkit-filter: hue-rotate(83deg);
+    filter: hue-rotate(83deg);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.disabled.jsx-2351de3453acc426 {
+    cursor: not-allowed;
+}
+
+/*! CSS Used from: Embedded */
+.username_div.jsx-af2ab08db80ae354 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.username_input.jsx-af2ab08db80ae354 {
+    border: 1px solid var(--m-main-purple-color);
+    padding: 16px 20px;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 66px;
+}
+
+.username_input.jsx-af2ab08db80ae354>input.jsx-af2ab08db80ae354 {
+    outline: none;
+    background-color: var(--m-background-color);
+    border: none;
+    color: var(--m-main-purple-color);
+    width: 100%;
+    font-size: 16px;
+}
+
+.username_input.jsx-af2ab08db80ae354>p.jsx-af2ab08db80ae354 {
+    font-size: 16px;
+}
+
+.availability_msg.jsx-af2ab08db80ae354 {
+    height: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.hidden.jsx-af2ab08db80ae354 {
+    visibility: hidden;
+}
+
+/*! CSS Used from: Embedded */
+.hero_wrapper.jsx-9e731121a2c5013a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 138px 18px 0;
+}
+
+.tagline.jsx-9e731121a2c5013a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tagline.jsx-9e731121a2c5013a>p.jsx-9e731121a2c5013a {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 1;
+    position: relative;
+}
+
+.f.jsx-9e731121a2c5013a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.f-1.jsx-9e731121a2c5013a {
+    -webkit-animation: 8s t-1 linear infinite;
+    animation: 8s t-1 linear infinite;
+    background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f-2.jsx-9e731121a2c5013a {
+    -webkit-animation: 8s t-2 linear infinite;
+    animation: 8s t-2 linear infinite;
+    background-image: linear-gradient(90deg, #7928ca, #ff0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f-3.jsx-9e731121a2c5013a {
+    -webkit-animation: 8s t-3 linear infinite;
+    animation: 8s t-3 linear infinite;
+    background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tagline_secondary.jsx-9e731121a2c5013a {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+@media (min-width:900px) {
+    .hero_wrapper.jsx-9e731121a2c5013a {
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 124px;
+    }
+
+    .tagline.jsx-9e731121a2c5013a {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .tagline.jsx-9e731121a2c5013a>p.jsx-9e731121a2c5013a {
+        font-size: 72px;
+    }
+
+    .tagline_secondary.jsx-9e731121a2c5013a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1100px) {
+    .tagline.jsx-9e731121a2c5013a>p.jsx-9e731121a2c5013a {
+        font-size: 88px;
+    }
+}
+
+/*! CSS Used from: Embedded */
+.video_container.jsx-44bdf6eab199ab6b {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 64px 18px;
+    background-image: linear-gradient(360deg, #0e0422, #0501116b 55%, #04000c 55%, #000);
+}
+
+.video.jsx-44bdf6eab199ab6b {
+    border: 1px solid var(--m-main-purple-color);
+    margin: auto;
+    width: 100%;
+    border-radius: 8px;
+    max-width: 879px;
+    box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 19%), 0 0 15px 0 rgb(238 1 255 / 57%), 0 5px 53px 0 rgb(0 29 255 / 32%);
+}
+
+/*! CSS Used from: Embedded */
+.footer_wrapper.jsx-1c61ed74b89e72c1 {
+    background-image: linear-gradient(360deg, #090616, #171130 168%, #080318 126%, #000);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.footer_links.jsx-1c61ed74b89e72c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    padding: 18px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.link.jsx-1c61ed74b89e72c1 {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.right_footer.jsx-1c61ed74b89e72c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+}
+
+@media (min-width:840px) {
+    .footer_links.jsx-1c61ed74b89e72c1 {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        max-width: 1120px;
+        margin: auto;
+        padding: 32px 18px;
+    }
+
+    .right_footer.jsx-1c61ed74b89e72c1 {
+        gap: 64px;
+    }
+}
+
+/*! CSS Used from: Embedded */
+.landing_page_main {
+    overflow-y: scroll;
+    background-color: var(--m-background-color);
+    height: 100vh;
+    color: #fff;
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJM.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1g.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1g.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
