@@ -188,7 +188,7 @@ const Resume = () => {
     const fetchData = async () => {
    
       try {
-        const response = await fetch("https://frantic-swimsuit-duck.cyclic.app/portfolio"); // Replace with your API endpoint
+        const response = await fetch("https://portfolio-generator-backend.vercel.app/portfolio");
      
         const jsonData = await response.json(); // Parse JSON response
         console.log(jsonData);
