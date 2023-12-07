@@ -175,45 +175,46 @@ const Resume = () => {
   const [DemoUrl4, SetDemoUrl4] = useState("https://sopa-marketplace.vercel.app/");
   const [ProjectImage4, SetProjectImage4] = useState("https://blogger.googleusercontent.com/img/a/AVvXsEiq6dn-gG-kljFIPg_3viIW3BRgDcngTctthJAILQs28k__9Nvhtj8U4QJCI6aXQYg4wtsY41HfTpyFQJekz16KRoRIIWSbmfSppFUfRxAr-bRApsa4ACwM69wV9rkiuFM8JqKa6PymkQCqw3qxBmStW2m4WYTSfVUFtaguXPUSbpxOScEgMKm7XYgXXkvM");
   
-  const [Id, setId] = useState("monu");
+  // const [Id, setId] = useState("");
 
   const [data, setData] = useState([]);
   
   const { id } = useParams();
   
+   const fetchData = async () => {
+   
+      try {
+        const response = await fetch("http://localhost:8080/portfolio/"); // Replace with your API endpoint
+     
+        const jsonData = await response.json(); // Parse JSON response
+        const userData = jsonData.find(item => item.username == id);
+        console.log("Name =",Name);
+         setName(userData.name);
+    console.log(data);
+        console.log(jsonData);
+        // setData(jsonData); // Set loading to false
+          
+      } catch (error) {
+        console.error("Error fetching data:");// Set loading to false in case of an error
+     }
+     
+    };
   
   useEffect(() => {
     // Function to fetch data 
-    setId(id);
-    const fetchData = async () => {
-   
-      try {
-        const response = await fetch("https://portfolio-generator-backend.vercel.app/portfolio");
-     
-        const jsonData = await response.json(); // Parse JSON response
-        console.log(jsonData);
-        setData(jsonData); // Set loading to false
-
-      } catch (error) {
-        console.error("Error fetching data:");// Set loading to false in case of an error
-      }
-    };
-
+    // setId(id);
     fetchData(); // Call the function to fetch data
-
-    const userData = data.find(item => item.username == Id);
-    console.log(data);
-    if (userData) {
-      setName(userData.name);
-      console.log(userData.name); // This will log 'Monu Singh' to the console
-    }
-
-
-  }, [Name, Id, data]);
   
-  console.log("Id = ", Id);
+    // if (userData) {
+    //   setName(userData.name);
+    //   console.log("Name ",userData.name); // This will log 'Monu Singh' to the console
+    //  }
+  }, [Name]);
+  
+  // console.log("Id = ", Id);
   
   return (
+    // <div>Monu</div>
       <div id="__next">
       <div class="jsx-408acd7ebedf08ea custom_scrollbar template theme_14">
         <header class="jsx-3cc39d55e1ae0774 header">
