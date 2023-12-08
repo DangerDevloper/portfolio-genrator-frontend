@@ -184,7 +184,7 @@ const Resume = () => {
    const fetchData = async () => {
    
       try {
-        const response = await fetch("https://portfolio-generator-backend.vercel.app/portfolio"); // Replace with your API endpoint
+        const response = await fetch("https://portfolio-generator-8tae.vercel.app/portfolio"); // Replace with your API endpoint
      
         const jsonData = await response.json(); // Parse JSON response
         const userData = jsonData.find(item => item.username == id);
